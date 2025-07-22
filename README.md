@@ -4,11 +4,10 @@
 
 1. [How It Works](#%EF%B8%8F-how-it-works)
 2. [Technologies Used](#-technologies-used)
-3. [Images and Videos](#images-and-videos)
-4. [Installation and Deployment Manual](#installation-and-deployment-manual)
-5. [Roadmap](#roadmap)
-6. [Contributions](#contributions)
-7. [License](#license)
+3. [Installation and Deployment Manual](#-installation-and-deployment-manual)
+4. [Roadmap](#-roadmap)
+5. [Contributions](#-contributions)
+6. [License](#-license)
 
 ## ⚙️ How It Works
 
