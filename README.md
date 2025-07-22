@@ -1,89 +1,116 @@
-# TFG--Impact-climate-viruses
+# Genomic Data Analysis and Its Relationship with Meteorological Data
 
-📃 Table of Contents
+## 📃 Table of Contents
 
-How It Works
+1. [How It Works](#how-it-works)
+2. [Technologies Used](#technologies-used)
+3. [Images and Videos](#images-and-videos)
+4. [Installation and Deployment Manual](#installation-and-deployment-manual)
+5. [Roadmap](#roadmap)
+6. [Contributions](#contributions)
+7. [License](#license)
 
-Technologies Used
+## ⚙️ How It Works
 
-Installation and Deployment Manual
+This project analyzes potential correlations between phage genomic data (viruses that infect bacteria) and meteorological conditions. Genomic data is sourced from **PhagesDB** and **NOAA**, while weather information is retrieved from **NCBI**. The full workflow is implemented in **Python**, leveraging data science and bioinformatics tools to extract, process, visualize, and correlate information.
 
-Contributions
+### Objectives
 
-License
+- Retrieve genomic data from PhagesDB and NOAA.
+- Extract meteorological data from NCBI.
+- Identify patterns or correlations between climate variability and genomic changes.
+- Generate visual and analytical outputs to support the findings.
 
-⚙️ How It Works
+## 🚀 Technologies Used
 
-This project's main goal is to analyze possible correlations between phage genomic data (viruses that infect bacteria) and meteorological conditions. Genomic data is extracted from PhagesDB and NOAA, and compared with weather data collected from NCBI. The entire analysis is performed using Python, utilizing data science and bioinformatics tools to process, visualize, and correlate the collected information.
+- **Python 3.10+**
+- `pandas`, `numpy`: Data processing and analysis
+- `biopython`: Genomic data parsing
+- `matplotlib`, `seaborn`, `plotly`: Data visualization
+- `scikit-learn`: Statistical analysis and modeling
+- `requests`, `BeautifulSoup`: Web scraping for data extraction
 
-Objectives
+## 📸 Images and Videos
 
-Retrieve genomic data of phages from PhagesDB and NOAA.
+You can include visual assets like diagrams and sample outputs. Example:
 
-Extract meteorological information from NCBI.
+![Flow Diagram](images/diagram.png)
 
-Analyze patterns or correlations between climate variability and genomic changes observed in phages.
+> Make sure to store image files in a relative path like `images/` so GitHub can render them.
 
-Visualize findings through graphs and reports.
+## 📁 Installation and Deployment Manual
 
-🚀 Technologies Used
+### Prerequisites
+- Python 3.10+
+- Git
 
-Python 3.10+
+### Steps
 
-pandas, numpy: Data manipulation and analysis
+1. **Clone the repository**
 
-biopython: Genomic sequence processing
-
-matplotlib, seaborn, plotly: Data visualization
-
-scikit-learn: Statistical modeling and analysis
-
-requests, BeautifulSoup: Web scraping
-
-📸 Images and Videos
-
-Add screenshots, flow diagrams, or gifs here to illustrate how the project works.
-
-Example:
-
-
-📁 Installation and Deployment Manual
-
-Clone the repository:
-
+```bash
 git clone https://github.com/your_user/genomic-climate-analysis.git
 cd genomic-climate-analysis
+```
 
-Install dependencies:
+2. **Install dependencies**
 
+```bash
 pip install -r requirements.txt
+```
 
-Run notebooks or scripts:
+3. **Run the scripts or notebooks**
 
+```bash
+# Jupyter Notebook (exploration and EDA)
 jupyter notebook notebooks/
-# or run the scripts directly
-python scripts/genomic_analysis.py
 
-Project Structure
+# Or run the pipeline scripts directly
+python main.py
+```
 
+### Project Structure
+
+```plaintext
 TFG-IMPACT-CLIMATE-VIRUSES/
-|
-|-- Data_analyze.py       # Analysis and correlation functions
-|-- Genome_Data.py        # PhagesDB and NCBI data acquisition
-|-- main.py               # Project entry point
-|-- NOAA_data.py          # NOAA data processing
-|-- README.md             # Project documentation
+├── Data_analyze.py       # Analysis and correlation logic
+├── Genome_Data.py        # Genomic data acquisition (PhagesDB & NCBI)
+├── NOAA_data.py          # Meteorological data processing from NOAA
+├── main.py               # Entry point script to run the analysis
+├── README.md             # Project documentation
+├── requirements.txt      # Python dependencies
+├── notebooks/            # Jupyter notebooks for EDA
+├── data/                 # Raw and processed datasets
+├── results/              # Generated plots and analysis results
+```
 
-🔄 Roadmap
+## 🔄 Roadmap
 
+### Completed ✅
+- [x] Extract data from PhagesDB and NOAA
+- [x] Integrate meteorological data from NCBI
+- [x] Data cleaning and preprocessing
+- [x] Data visualization
 
+### In Progress / To Do 🛠️
+- [ ] Implement predictive models based on genomic-meteorological patterns
+- [ ] Build an interactive dashboard
+- [ ] Automate the entire pipeline
 
-✍️ Contributions
+## ✍️ Contributions
 
-Contributions are welcome. Please open an issue or submit a fork and pull request to suggest changes or improvements.
+We welcome contributions from the community! To contribute:
+- Fork the repo
+- Create a new branch (`git checkout -b feature-xyz`)
+- Commit your changes
+- Push to your fork
+- Create a Pull Request
 
-📄 License
+## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 
-Authors: Your Name / Research TeamContact: your.email@example.com
+---
+
+**Authors:** Your Name / Research Team  
+**Contact:** [your.email@example.com](mailto:your.email@example.com)
