@@ -1,4 +1,4 @@
-# Genomic Data Analysis and Its Relationship with Meteorological Data
+# Impact-climate-viruses
 
 ## 📃 Table of Contents
 
