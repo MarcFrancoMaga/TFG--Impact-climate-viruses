@@ -2,7 +2,7 @@
 
 ## 📃 Table of Contents
 
-1. [How It Works](#How-it-works)
+1. [How It Works](#%EF%B8%8F-how-it-works)
 2. [Technologies Used](#technologies-used)
 3. [Images and Videos](#images-and-videos)
 4. [Installation and Deployment Manual](#installation-and-deployment-manual)
