@@ -1,4 +1,4 @@
-# Impact-climate-viruses
+# Impact of Climate on Viruses
 
 ## 📃 Table of Contents
 
