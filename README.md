@@ -49,17 +49,11 @@ You can include visual assets like diagrams and sample outputs. Example:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your_user/genomic-climate-analysis.git
-cd genomic-climate-analysis
+git clone https://github.com/MarcFrancoMaga/TFG--Impact-climate-viruses
+cd TFG--Impact-climate-viruses
 ```
 
-2. **Install dependencies**
-
-```bash
-pip install -r requirements.txt
-```
-
-3. **Run the scripts or notebooks**
+2. **Run the scripts or notebooks**
 
 ```bash
 # Jupyter Notebook (exploration and EDA)
