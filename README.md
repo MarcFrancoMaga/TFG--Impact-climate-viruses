@@ -63,7 +63,6 @@ TFG-IMPACT-CLIMATE-VIRUSES/
 ├── NOAA_data.py          # Meteorological data processing from NOAA
 ├── main.py               # Entry point script to run the analysis
 ├── README.md             # Project documentation
-├── requirements.txt      # Python dependencies
 ├── notebooks/            # Jupyter notebooks for EDA
 ├── data/                 # Raw and processed datasets
 ├── results/              # Generated plots and analysis results
