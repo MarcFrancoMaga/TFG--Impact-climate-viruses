@@ -97,5 +97,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-**Authors:** Your Name / Research Team  
-**Contact:** [your.email@example.com](mailto:your.email@example.com)
+**Authors:** Marc Franco Magaña
+**Contact:** [marcfrancomagana@gmail.com](mailto:your.email@example.com)
