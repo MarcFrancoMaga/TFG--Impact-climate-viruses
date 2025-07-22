@@ -2,7 +2,7 @@
 
 ## 📃 Table of Contents
 
-1. [How It Works](#how-it-works)
+1. [How It Works](#How-it-works)
 2. [Technologies Used](#technologies-used)
 3. [Images and Videos](#images-and-videos)
 4. [Installation and Deployment Manual](#installation-and-deployment-manual)
@@ -29,14 +29,6 @@ This project analyzes potential correlations between phage genomic data (viruses
 - `matplotlib`, `seaborn`, `plotly`: Data visualization
 - `scikit-learn`: Statistical analysis and modeling
 - `requests`, `BeautifulSoup`: Web scraping for data extraction
-
-## 📸 Images and Videos
-
-You can include visual assets like diagrams and sample outputs. Example:
-
-![Flow Diagram](images/diagram.png)
-
-> Make sure to store image files in a relative path like `images/` so GitHub can render them.
 
 ## 📁 Installation and Deployment Manual
 
