@@ -97,5 +97,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-**Authors:** Marc Franco Magaña
+**Authors:** Marc Franco Magaña \\
 **Contact:** [marcfrancomagana@gmail.com](mailto:your.email@example.com)
